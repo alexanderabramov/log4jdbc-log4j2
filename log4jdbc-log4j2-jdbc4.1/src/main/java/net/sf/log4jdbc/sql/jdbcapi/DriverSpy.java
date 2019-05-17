@@ -227,6 +227,7 @@ public class DriverSpy implements Driver
 				sqlServer);
 		rdbmsSpecifics.put("weblogic.jdbc.sqlserver.SQLServerDriver", sqlServer);
 		rdbmsSpecifics.put("com.mysql.jdbc.Driver", mySql);
+        rdbmsSpecifics.put("com.mysql.cj.jdbc.Driver", mySql);
         rdbmsSpecifics.put("com.ibm.db2.jcc.DB2Driver", db2);
         rdbmsSpecifics.put("COM.ibm.db2.jdbc.app.DB2Driver", db2);
         rdbmsSpecifics.put("COM.ibm.db2.jdbc.net.DB2Driver", db2);
